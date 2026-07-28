@@ -25,10 +25,10 @@ class MissionNode(Node):
 
         # Named waypoints in the map frame: (x, y, yaw)
         self.waypoints = {
-            'home':     (-0.425344, 7.25204, 0.0191374),
-            'loading':  (18.5731, 3.78951, -1.57201),
-            'storage':  (7.33734, -5.4914, 3.13288),
-            'shipping': (-7.10548, 0.737749, 1.57224),
+            'home':     (-0.425, 7.25, 1.57),
+            'loading':  (18.575, 3.80, -1.57),
+            'storage':  (7.335, -5.50, 3.14),
+            'shipping': (-7.105, 0.75, 1.57),
         }
 
         self.mission_order = ['home', 'loading', 'storage', 'shipping', 'home']
